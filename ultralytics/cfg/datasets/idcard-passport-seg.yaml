@@ -1,0 +1,8 @@
+path: ../../data/idcard-passport-seg # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/val # val images (relative to 'path')
+test:
+
+names:
+  0: idcard
+  1: passport

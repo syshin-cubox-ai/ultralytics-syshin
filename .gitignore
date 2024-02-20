@@ -1,3 +1,6 @@
+widerface_evaluate/widerface_txt/
+widerface_evaluate/box_overlaps.c
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,9 @@
+path: /raid/camera # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/val # val images (relative to 'path')
+test:
+
+# Classes
+names:
+  0: phone
+  1: camera

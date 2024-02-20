@@ -1,0 +1,6 @@
+conda create -n ultralytics python=3.11 -y
+conda activate ultralytics
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip install -e .
+pip install cython onnx onnxruntime onnxslim openvino wandb
+wandb login
